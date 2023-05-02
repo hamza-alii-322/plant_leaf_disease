@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About</title>
+
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="EE9A37D4-06E2-41EB-894A-9EABC97BD86E" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav>
+    <a href="/">
+      <img class="logo" src="{{ url_for('static', filename='../static/images/2.png') }}" alt="/">
+    </a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="about-me">
+    <div class="container-about">
+      <h1>About Me</h1>
+      <img src="{{ url_for('static', filename='/images/pic.png') }}" alt="My Profile Picture">
+
+
+      <p>Hi there! ! My name is Hamza Ali Ghaffar and I am a final year Computer Science student with a passion for
+        technology and innovation.</p>
+      <p>Throughout my academic career, I have gained valuable experience in programming languages such as Python,
+        Javascript and C++. I have also worked on various projects involving web development and data analysis.In
+        addition to my technical skills, I also possess excellent communication abilities. </p>
+      <p>Thank you for visiting the website, and feel free to contact me if you have any questions or collaboration
+        opportunities.</p>
+      <div class="follow">
+        <a href="about" class="btn">Follow Us</a>
+
+        <ul class="list-unstyled social-icons">
+          <li><a href="https://www.facebook.com/profile.php?id=100084199476468&mibextid=ZbWKwL"><i
+                class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://instagram.com/hamza_ali.22?igshid=ZDdkNTZiNTM= "><i class="fab fa-instagram"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/hamza-ali-384340207"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
